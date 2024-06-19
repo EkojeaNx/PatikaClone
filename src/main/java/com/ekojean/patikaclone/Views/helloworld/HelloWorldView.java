@@ -1,6 +1,6 @@
 package com.ekojean.patikaclone.Views.helloworld;
 
-import com.ekojean.patikaclone.views.MainLayout;
+import com.ekojean.patikaclone.Views.MainLayout;
 import com.vaadin.flow.component.Key;
 import com.vaadin.flow.component.button.Button;
 import com.vaadin.flow.component.notification.Notification;
