@@ -1,4 +1,4 @@
-package com.ekojean.patikaclone.views.helloworld;
+package com.ekojean.patikaclone.Views.helloworld;
 
 import com.ekojean.patikaclone.views.MainLayout;
 import com.vaadin.flow.component.Key;
@@ -9,10 +9,12 @@ import com.vaadin.flow.component.textfield.TextField;
 import com.vaadin.flow.router.PageTitle;
 import com.vaadin.flow.router.Route;
 import com.vaadin.flow.router.RouteAlias;
+import jakarta.annotation.security.PermitAll;
 
 @PageTitle("Hello World")
 @Route(value = "", layout = MainLayout.class)
 @RouteAlias(value = "", layout = MainLayout.class)
+@PermitAll
 public class HelloWorldView extends HorizontalLayout {
 
     private TextField name;

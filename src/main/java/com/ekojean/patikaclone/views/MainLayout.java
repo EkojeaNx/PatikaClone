@@ -1,8 +1,9 @@
 package com.ekojean.patikaclone.views;
 
 
-import com.ekojean.patikaclone.views.about.AboutView;
-import com.ekojean.patikaclone.views.helloworld.HelloWorldView;
+import com.ekojean.patikaclone.Views.Patika.PatikaView;
+import com.ekojean.patikaclone.Views.about.AboutView;
+import com.ekojean.patikaclone.Views.helloworld.HelloWorldView;
 import com.vaadin.flow.component.Component;
 import com.vaadin.flow.component.applayout.AppLayout;
 import com.vaadin.flow.component.html.Div;
@@ -102,9 +103,8 @@ public class MainLayout extends AppLayout {
     private MenuItemInfo[] createMenuItems() {
         return new MenuItemInfo[]{ //
                 new MenuItemInfo("Hello World", LineAwesomeIcon.GLOBE_SOLID.create(), HelloWorldView.class), //
-
                 new MenuItemInfo("About", LineAwesomeIcon.FILE.create(), AboutView.class), //
-
+                new MenuItemInfo("Patika", LineAwesomeIcon.PAGER_SOLID.create(), PatikaView.class), //
         };
     }
 
