@@ -1,4 +1,4 @@
-package com.ekojean.patikaclone.views;
+package com.ekojean.patikaclone.Views;
 
 
 import com.ekojean.patikaclone.Views.Patika.PatikaView;
